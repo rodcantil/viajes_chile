@@ -5,3 +5,131 @@
     box-sizing: border-box;
 }
 
+.tata {
+    
+}
+.padre1{
+   
+
+}
+
+.hijo1 {
+
+}
+
+#carouselExample {
+
+}
+
+.container {
+   
+
+}
+
+.nav {
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+}
+.navbar {
+    width: 80vw;
+}
+
+@media screen and (max-width: 480px){
+    .navbar {
+        width: auto;
+    }
+}
+
+
+.icononav {
+    width: 20px;
+}
+
+.hijo1 span {
+    font-size: 12px;
+    color: white;
+
+}
+
+.navbar-nav {
+    font-size: 12px;
+    width: auto;
+    justify-content: end;
+}
+
+.navbar-nav a {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.navbar-nav a:hover {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.padre2, .padre3, .padre4 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.hijo2, .hijo3 {
+    width: 80vw;
+    max-width: 100%;
+    margin: auto;
+}
+
+.icono1, .icono2, .icono3  {
+    width: 8%;
+    margin: auto;
+   
+}
+.icono1 a, .icono2 a, .icono3 a {
+    filter: invert(100);
+}
+
+.linea {
+    height: 2px;
+    background-color: rgb(100, 100, 100);
+    width: 73%;
+    margin: auto;
+}
+
+.linea2 {
+    height: 2px;
+    background-color: rgb(100, 100, 100);
+    width: 100%;
+    margin: auto;
+}
+
+.card {
+     border: none;
+    color: white;
+}
+
+.card img {
+    height: 159px;
+}
+
+
+.iconosfooter>.linkedin, .twitter, .fb, .github {
+    
+    width: 20px;
+}
+
+.iconosfooter>.linkedin a, .twitter a, .fb a, .github a {
+
+    filter: invert(100);
+   
+}
+.container {
+    width: 60vw;
+}
+.nieto5{
+   color: white;
+   display: inline-block;
+  
+    
+  
+}
+.github a {
+    height: 100%;
+}
