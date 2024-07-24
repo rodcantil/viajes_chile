@@ -110,26 +110,19 @@
 }
 
 
-.iconosfooter>.linkedin, .twitter, .fb, .github {
-    
-    width: 20px;
+
+.hijo5 {
+    color: white;
+    width: 60vw;
+    margin: auto;
 }
 
+.github, .linkedin, .twitter, .fb  {
+    
+    width: 45px;
+}
 .iconosfooter>.linkedin a, .twitter a, .fb a, .github a {
 
     filter: invert(100);
    
-}
-.container {
-    width: 60vw;
-}
-.nieto5{
-   color: white;
-   display: inline-block;
-  
-    
-  
-}
-.github a {
-    height: 100%;
 }
