@@ -4,27 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 .tata {
     
 }
-.padre1{
-   
 
-}
-
-.hijo1 {
-
-}
-
-#carouselExample {
-
-}
-
-.container {
-   
-
-}
 
 .nav {
     width: 100vw;
@@ -32,7 +18,7 @@
     z-index: 2;
 }
 .navbar {
-    width: 80vw;
+    width: 75vw;
 }
 
 @media screen and (max-width: 480px){
@@ -71,20 +57,27 @@
     color: white;
 }
 
-.hijo2, .hijo3 {
+.hijo2, .hijo3, .hijo4 {
     width: 80vw;
     max-width: 100%;
     margin: auto;
 }
 
+.cuadro1 {
+    width: 100%;
+}
 .icono1, .icono2, .icono3  {
-    width: 8%;
+    width: 35px;
     margin: auto;
+   
+    
    
 }
 .icono1 a, .icono2 a, .icono3 a {
     filter: invert(100);
 }
+
+
 
 .linea {
     height: 2px;
@@ -96,12 +89,12 @@
 .linea2 {
     height: 2px;
     background-color: rgb(100, 100, 100);
-    width: 100%;
+    width: 90%;
     margin: auto;
 }
 
 .card {
-     border: none;
+    border: none;
     color: white;
 }
 
@@ -112,17 +105,37 @@
 
 
 .hijo5 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
     color: white;
-    width: 60vw;
+    width: 65vw;
     margin: auto;
+ 
+
+ 
+}
+
+#viajeschile {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.iconosfooter {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .github, .linkedin, .twitter, .fb  {
     
-    width: 45px;
+    width: 25px;
+    margin: 10px;
 }
 .iconosfooter>.linkedin a, .twitter a, .fb a, .github a {
 
     filter: invert(100);
    
 }
+
+
+

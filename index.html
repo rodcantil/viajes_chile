@@ -15,7 +15,7 @@
 </head>
 <body >
   <div class="tata">
-    <div class="padre1">
+    <div id="padre1">
       <div class="d-flex nav justify-content-lg-center ">
         <nav class="navbar navbar-expand">
           <div class="container-fluid gx-0">
@@ -25,10 +25,10 @@
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link " href="#">Inicio</a>
-                <a class="nav-link " href="#padre2">Quienes somos</a>
-                <a class="nav-link " href="#padre3">Destacados</a>
-                <a class="nav-link " href="#padre4">Contacto</a>
+                <a class="nav-link " href="#padre1">Inicio</a>
+                <a class="nav-link " href="#quienesomos">Quienes somos</a>
+                <a class="nav-link " href="#destacados">Destacados</a>
+                <a class="nav-link " href="#contacto">Contacto</a>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@
             <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="pinguinos">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
@@ -56,67 +56,71 @@
         </button>
       </div>
     </div>
-    <div id="padre2" class=" py-4">
-      <h3 class="text-center py-4">¿QUIÉNES SOMOS?</h3>
-      <div class="linea d-none d-lg-block"></div>
-      <div class="hijo2 row py-5 ">
-        <div class="cuadro1 col-sm-12 col-lg">
-          <div class="icono1 bg-info">
-            <a href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-              <path d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z"/></svg>
-            </a>
+    <div id="padre2" class="py-4 d-none d-lg-block">
+      <h3 id="quienesomos" class="text-center py-4">¿QUIÉNES SOMOS?</h3>
+      <div class="linea2 d-none d-lg-block"></div>
+      <div class="hijo2 row py-4 ">
+        <div class="cuadro1 col-sm-12 col-lg py-2">
+          <div class="w-100 bg-info">
+            <div class="icono1 ">
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <path d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z"/></svg>
+              </a>
+            </div>            
           </div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum corrupti obcaecati vitae, nemo modi quae aut error doloremque, omnis iusto ipsam eveniet repellat quos quisquam perferendis, quo voluptatum adipisci maiores! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam debitis sint aliquid mollitia! Unde nesciunt temporibus minus? Suscipit laudantium facilis, aspernatur nam, aut eveniet aperiam sit recusandae, tempora est maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptate sapiente magnam laudantium molestiae optio ea eos.</p>
         </div>
-        <div class="cuadro2 col-sm-12 col-lg">
+        <div class="cuadro2 col-sm-12 col-lg py-2">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ad commodi ea labore tempore consectetur culpa temporibus repellendus incidunt ipsam, magni unde molestias? Mollitia doloribus nihil, assumenda placeat quis quia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, assumenda hic? Quasi sequi, atque quam numquam dolore cumque praesentium saepe dicta, pariatur dolores tenetur rerum ut corrupti. Voluptas, quidem dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis maxime voluptate reprehenderit eveniet aliquam quaerat natus non.</p>
-          <div class="icono2 bg-info">
-            <a href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-              <path d="M256 32c12.5 0 24.1 6.4 30.8 17L503.4 394.4c5.6 8.9 8.6 19.2 8.6 29.7c0 30.9-25 55.9-55.9 55.9L55.9 480C25 480 0 455 0 424.1c0-10.5 3-20.8 8.6-29.7L225.2 49c6.6-10.6 18.3-17 30.8-17zm65 192L256 120.4 176.9 246.5l18.3 24.4c6.4 8.5 19.2 8.5 25.6 0l25.6-34.1c6-8.1 15.5-12.8 25.6-12.8l49 0z"/></svg>
-            </a>
+          <div class="w-100 bg-info">
+            <div class="icono2">
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path d="M256 32c12.5 0 24.1 6.4 30.8 17L503.4 394.4c5.6 8.9 8.6 19.2 8.6 29.7c0 30.9-25 55.9-55.9 55.9L55.9 480C25 480 0 455 0 424.1c0-10.5 3-20.8 8.6-29.7L225.2 49c6.6-10.6 18.3-17 30.8-17zm65 192L256 120.4 176.9 246.5l18.3 24.4c6.4 8.5 19.2 8.5 25.6 0l25.6-34.1c6-8.1 15.5-12.8 25.6-12.8l49 0z"/></svg>
+              </a>
+            </div>
           </div>
         </div>
-        <div class="cuadro3 col-sm-12 col-lg">
-          <div class="icono3 bg-info">
-            <a href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-              <path d="M512 96c0 50.2-59.1 125.1-84.6 155c-3.8 4.4-9.4 6.1-14.5 5L320 256c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c53 0 96 43 96 96s-43 96-96 96l-276.4 0c8.7-9.9 19.3-22.6 30-36.8c6.3-8.4 12.8-17.6 19-27.2L416 448c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0c-53 0-96-43-96-96s43-96 96-96l39.8 0c-21-31.5-39.8-67.7-39.8-96c0-53 43-96 96-96s96 43 96 96zM117.1 489.1c-3.8 4.3-7.2 8.1-10.1 11.3l-1.8 2-.2-.2c-6 4.6-14.6 4-20-1.8C59.8 473 0 402.5 0 352c0-53 43-96 96-96s96 43 96 96c0 30-21.1 67-43.5 97.9c-10.7 14.7-21.7 28-30.8 38.5l-.6 .7zM128 352a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM416 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg>
-            </a>
+        <div class="cuadro3 col-sm-12 col-lg py-2">
+          <div class="w-100 bg-info">
+            <div class="icono3">
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path d="M512 96c0 50.2-59.1 125.1-84.6 155c-3.8 4.4-9.4 6.1-14.5 5L320 256c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c53 0 96 43 96 96s-43 96-96 96l-276.4 0c8.7-9.9 19.3-22.6 30-36.8c6.3-8.4 12.8-17.6 19-27.2L416 448c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0c-53 0-96-43-96-96s43-96 96-96l39.8 0c-21-31.5-39.8-67.7-39.8-96c0-53 43-96 96-96s96 43 96 96zM117.1 489.1c-3.8 4.3-7.2 8.1-10.1 11.3l-1.8 2-.2-.2c-6 4.6-14.6 4-20-1.8C59.8 473 0 402.5 0 352c0-53 43-96 96-96s96 43 96 96c0 30-21.1 67-43.5 97.9c-10.7 14.7-21.7 28-30.8 38.5l-.6 .7zM128 352a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM416 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg>
+              </a>
+            </div>
           </div>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo aperiam inventore optio similique voluptatem doloribus doloremque, cum debitis eos provident est totam dolores adipisci deserunt iusto excepturi ipsam ea voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ipsa voluptatum neque libero quis optio non, autem nesciunt velit quaerat aut rerum earum temporibus nostrum, ipsum eligendi numquam delectus! Sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa architecto corporis, molestiae, id earum, voluptatibus ratione iusto laboriosam.</p>
         </div>
       </div>
-
-
     </div>  
     <div id="padre3" >
-      <h3 class="text-center py-4">DESTACADOS</h3>
-      <br>
-      <div class="row justify-content-between pb-4 hijo3">
-        <div class="card col-sm-12 col-lg mb-4 mx-3 gx-0 bg-info" style="width: 18rem;">
+      <h3 id="destacados" class="text-center pt-4">DESTACADOS</h3>
+      <div class="linea2 d-none d-lg-block my-4"></div>
+      <div class="d-flex flex-wrap  pb-4 hijo3">
+        <div class="card col-sm-10 col-lg mb-4 mx-2 gx-0 bg-info" style="width: 18rem;" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="VISITA TORRES DEL PAINE">
           <img src="assets/img/card1.jpg" class="card-img-top " alt="torredelpaine">
           <div class="card-body">
             <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
             <p class="card-text">Fuga tempore animi sed. Quam delectus accusantium maiores, tenetur repellendus autem non aut iure quo incidunt adipisci.</p>
           </div>
         </div>
-        <div class="card col-sm-12 col-lg mb-4 mx-3 gx-0 bg-info" style="width: 18rem;">
+        <div class="card col-sm-10 col-lg mb-4 mx-2 gx-0 bg-info" style="width: 18rem;" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="VISITA LAGUNA DESIERTO">
           <img src="assets/img/card2.jpg" class="card-img-top" alt="laguna">
           <div class="card-body">
             <h5 class="card-title">Consectetur adipisicing elit</h5>
             <p class="card-text">Fuga tempore animi sed. Quam delectus accusantium maiores, tenetur repellendus autem non aut iure quo incidunt adipisci.</p>
           </div>
         </div>
-        <div class="card col-sm-12 col-lg mb-4 mx-3 gx-0 bg-info" style="width: 18rem;">
+        <div class="card col-sm-10 col-lg mb-4 mx-2 gx-0 bg-info" style="width: 18rem;" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="VISITA SALAR ATACAMA">
           <img src="assets/img/card3.jpg" class="card-img-top" alt="desierto">
           <div class="card-body">
-            <h5 class="card-title"> Fuga tempore animi sed. Quam delectus accusantium maiores</h5>
+            <h5 class="card-title"> Fuga tempore animi sed. Accusantium maiores</h5>
             <p class="card-text">Fuga tempore animi sed. Quam delectus accusantium maiores, tenetur repellendus autem non aut iure quo incidunt adipisci.</p>
           </div>     
       </div>
-      <div class="card col-sm-12 col-lg mb-4 mx-3 gx-0 bg-info" style="width: 18rem;">
+      <div class="card col-sm-10 col-lg mb-4 mx-2 gx-0 bg-info" style="width: 18rem;" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="VISITA BOSQUE CHILENO">
         <img src="assets/img/card4.jpg" class="card-img-top" alt="bosque">
         <div class="card-body">
           <h5 class="card-title">Totam expedita consequuntur</h5>
@@ -126,8 +130,9 @@
     </div>
     </div>
     <div id="padre4" class="py-4">
-      <h3 class="text-center">CONTACTO</h3>
-      <div class="hijo3">
+      <h3 id="contacto" class="text-center">CONTACTO</h3>
+      <div class="linea2 d-none d-lg-block my-4"></div>
+      <div class="hijo4">
         <form>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nombre</label>
@@ -141,20 +146,20 @@
             <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
           </div>
-          <button type="submit" class="btn btn-info">Enviar</button>
+          <button id="enviarcorreo"  type="submit" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="ENVIAR AHORA!">Enviar</button>
         </form>
       </div>
     </div>
-    <div class= "padre5 bg-info">
-      <div class="hijo5 d-flex py-4">
-          <div class="col">
-            <p class="fs-3 fw-bold ">VIAJES CHILE</p>
+    <div id="padre5" class= "bg-info">
+      <footer class="hijo5 d-flex py-4 gx-2 ">
+          <div class="col-lg mt-2">
+            <p id="viajeschile" class="fs-5 text-nowrap fw-light">VIAJES CHILE</p>
           </div>
-          <div class="col">
-            <div class="row iconosfooter justify-content-end ">
+          <div class="col-lg">
+            <div class=" iconosfooter">
               <div class="github">
                 <a href="https://github.com/" target="_blank">
-                  <svg   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                   <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
                 </a>
               </div>
@@ -178,7 +183,7 @@
               </div>
             </div>
           </div>
-      </div>
+      </footer>
     </div>
   </div>
   <script src="https://kit.fontawesome.com/aeb675b5c5.js" crossorigin="anonymous"></script>
